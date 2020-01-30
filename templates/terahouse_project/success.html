@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js">
+{% block content %}
+{% load static %}
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sent successfully</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/logoonly.png' %}" />
+
+<!-- CSS
+================================================== -->
+<!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="{% static 'plugins/themefisher-font/style.css'%}">
+<!-- bootstrap.min css -->
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/dist/css/bootstrap.min.css'%}">
+<!-- Animate.css -->
+    <link rel="stylesheet" href="{% static 'plugins/animate-css/animate.css'%}">
+    <!-- Magnific popup css -->
+    <link rel="stylesheet" href="{% static 'plugins/magnific-popup/dist/magnific-popup.css'%}">
+<!-- Slick Carousel -->
+    <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick.css'%}">
+    <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick-theme.css'%}">
+<!-- Main Stylesheet -->
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+  </head>
+  <body>
+    <h1>email sent successfully to: {{ recepient }}</h1>
+    <h2>Check your inbox and junk emails</h2>
+    {% endblock %}
+    <script>
+      function redirect(){
+         window.location.href ="";
+      }
+
+      setTimeout(redirect, 2000); //2000 is equivalent to 3 seconds
+    </script>
+
+  </body>
+</html>

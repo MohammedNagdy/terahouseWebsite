@@ -1,0 +1,469 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <!--<![endif]-->
+    <html dir="rtl" lang="ar">
+    <head>
+    <meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Web Development and Software Engineering ">
+
+        <meta name="author" content="Mohammed Nagdy">
+
+        <title>Terahouse</title>
+
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/logoonly.png' %}" />
+
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="{% static 'plugins/themefisher-font/style.css'%}">
+		<!-- bootstrap.min css -->
+        <link rel="stylesheet" href="{% static 'plugins/bootstrap/dist/css/bootstrap.min.css'%}">
+		<!-- Animate.css -->
+        <link rel="stylesheet" href="{% static 'plugins/animate-css/animate.css'%}">
+        <!-- Magnific popup css -->
+        <link rel="stylesheet" href="{% static 'plugins/magnific-popup/dist/magnific-popup.css'%}">
+		<!-- Slick Carousel -->
+        <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick.css'%}">
+        <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick-theme.css'%}">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+
+    </head>
+
+    <body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
+	    <!--
+	    Start Preloader
+	    ==================================== -->
+		<div id="preloader">
+			<div class="preloader">
+				<div class="sk-cube-grid">
+				  <div class="sk-cube sk-cube1"></div>
+				  <div class="sk-cube sk-cube2"></div>
+				  <div class="sk-cube sk-cube3"></div>
+				  <div class="sk-cube sk-cube4"></div>
+				  <div class="sk-cube sk-cube5"></div>
+				  <div class="sk-cube sk-cube6"></div>
+				  <div class="sk-cube sk-cube7"></div>
+				  <div class="sk-cube sk-cube8"></div>
+				  <div class="sk-cube sk-cube9"></div>
+				</div>
+			</div>
+		</div>
+        <!--
+        End Preloader
+        ==================================== -->
+<!--<h4>
+  <a href="/en"> English</a>
+</h4>-->
+
+ <!--
+Welcome Slider
+==================================== -->
+
+<section class="hero-area">
+	<div class="block">
+		<div class="video-button">
+			<i class="tf-ion-play"></i>
+
+		</div>
+		<h1>تحكم فى شركتك فى مكانك</h1>
+		<p> مع تقدم وتعقيد التجارة و الأعمال فى جميع المجالات تقدم terahous الحلول لهذه المشاكل فى نطام ERP وتطوير مواقع الويب</p>
+		<a data-scroll href="#services" class="btn btn-transparent">تفقد خدماتنا</a>
+	</div>
+</section>
+
+ <!--
+  Fixed Navigation
+  ==================================== -->
+    <header id="navigation" class="navbar navigation navbar-light bg-light" color="white">
+        <div class="container">
+            <div class="navbar-header">
+              <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- /responsive nav button -->
+
+                <!-- logo -->
+                <a class="navbar-brand logo" href="#body">
+                    <img src="{% static 'images/logowhite.jpg' %}" alt="Website Logo" height="10px"/>
+
+                </a>
+            <!-- /logo -->
+        </div>
+
+        <!-- main nav -->
+        <nav class="collapse navbar-collapse navbar-right" role="Navigation" color="white">
+            <ul id="nav" class="nav navbar-nav navigation-menu">
+                <li><a data-scroll href="#body">الرئسية</a></li>
+                <li><a data-scroll href="#about">من نحن</a></li>
+                <li><a data-scroll href="#services">خدماتنا</a></li>
+                <li><a data-scroll href="#pricing">الأسعار</a></li>
+                <li><a data-scroll href="contact/">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <!-- /main nav -->
+
+      </div>
+  </header>
+  <!--
+  End Fixed Navigation
+  ==================================== -->
+
+<!--
+		Start About Section
+		==================================== -->
+		<section class="bg-one about section">
+			<div class="container">
+				<div class="row">
+
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2>من <span class="color">نحن</span> </h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
+						<div class="block">
+							<div class="icon-box">
+								<i class="tf-tools"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="content text-center">
+								<h3 class="ddd">نحن مبدعون</h3>
+								<p>نحن نقدم مجموعة واسعة من الأصناف التي تناسب احتياجات عملك. ومصممة خصيصا لك.</p>
+							</div>
+						</div>
+					</div>
+					<!-- End About item -->
+
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+						<div class="block">
+							<div class="icon-box">
+								<i class="tf-strategy"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="content text-center">
+								<h3>نحن المهنية</h3>
+								<p>ننهي مشاريعنا في وقت محدد مسبقًا بسعر محدد مسبقًا. تقدم دعم العملاء على مدار 24/7.</p>
+							</div>
+						</div>
+					</div>
+					<!-- End About item -->
+
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="block kill-margin-bottom">
+							<div class="icon-box">
+								<i class="tf-anchor2"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="content text-center">
+								<h3>نحن متحمسون</h3>
+								<p>فريقنا يعمل طوال الوقت ليوفر منتجات عالية الجودة لعملائنا.</p>
+							</div>
+						</div>
+					</div>
+					<!-- End About item -->
+
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action section-sm bg-1 overly">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>تصميم رائع وميزات لا تصدق</h2>
+
+				<a href="#pricing" class="btn btn-main">ابدأ مشروع معنا</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<!-- Start Services Section
+==================================== -->
+
+<section id="services" class="bg-one section">
+	<div class="container">
+		<div class="row">
+
+			<!-- section title -->
+			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+				<h2><span class="color">خدماتنا</span></h2>
+				<div class="border"></div>
+			</div>
+			<!-- /section title -->
+
+            <!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-globe"></i>
+					</div>
+					<h3>Solving Problems</h3>
+					<p>نرى مشاكل عملك كحلول رقمية. يمكننا مساعدتك في حل مشاكلك الآن</p>
+				</div>
+			</article>
+            <!-- End Single Service Item -->
+
+            <!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-ion-laptop"></i>
+					</div>
+					<h3>Responsive Design</h3>
+					<p>نحن نقدم واجهات المستخدم الرائعة ، التي تجذب العملاء ولصقها على موقع الويب الخاص بك لفترة طويلة. بالإضافة إلى ذلك ، سيكون لديهم تجربة بهيجة باستخدام منتجاتك عبر الإنترنت</p>
+				</div>
+			</article>
+            <!-- End Single Service Item -->
+
+            <!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-genius"></i>
+					</div>
+					<h3>Machine Learning and Artificial Intellegence</h3>
+					<p> automation هو المستقبل. لذا ، من الآن فصاعدًا ، لا داعي للقلق بشأن تحليل بيانات شراء عملائك ، حيث ستقوم الآلات بذلك من أجلك.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+
+
+			<!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-target3"></i>
+					</div>
+					<h3>Apps Development</h3>
+					<p>نريد منك أن تكون على هواتف العملاء الذين تساعدهم كل يوم.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+
+
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+
+<!-- Start Team Skills
+		=========================================== -->
+
+		<section id="team-skills" class="parallax-section section section-bg overly">
+			<div class="container">
+				<div class="row" >
+					<!-- section title -->
+					<div class="col-md-12">
+						<div class="title text-center">
+							<h2><span class="color">مهاراتنا</span></h2>
+							<div class="border"></div>
+						</div>
+					</div>
+					<!-- /section title -->
+				</div>  		<!-- End row -->
+				<div class="row">
+          <div class="col-md-6">
+						<ul class="skill-bar">
+							<li>
+								<p><span>01-</span> Web Development</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="70"
+									aria-valuemin="0" aria-valuemax="100" style="width:90%">
+									</div>
+								</div>
+							</li>
+							<li>
+								<p><span>02-</span> Machine Learning and AI</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="70"
+									aria-valuemin="0" aria-valuemax="100" style="width:93%">
+									</div>
+								</div>
+							</li>
+							<li>
+								<p><span>03-</span> Design</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="70"
+									aria-valuemin="0" aria-valuemax="100" style="width:95%">
+									</div>
+								</div>
+							</li>
+							<li>
+								<p><span>04-</span> Business Analytics</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="70"
+									aria-valuemin="0" aria-valuemax="100" style="width:80%">
+									</div>
+								</div>
+							</li>
+							<li>
+									<p><span>04-</span> Andriod/IOS Development</p>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70"
+										aria-valuemin="0" aria-valuemax="100" style="width:94%">
+										</div>
+									</div>
+								</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<h2>نحن ماهرون في مجموعة واسعة من طرق تطوير الويب و
+							أدوات الذكاء الاصطناعي.</h2>
+							<p>هدفنا هو جعل عملائك يقضون وقتًا طويلاً على موقع الويب الخاصة بك ليتمتعوا بتجربة رائعة. لذلك يأتي هذا من مجموعة مهاراتنا المتنوعة.</p>
+							<img class="img-responsive" src="{% static 'images/about/company-growth.png' %}" alt="">
+					</div>
+
+				</div>
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+
+<!-- Start Pricing section
+		=========================================== -->
+
+		<section id="pricing" class="pricing section">
+			<div class="container">
+				<div class="row">
+
+					<!-- section title -->
+				    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+			        	<h2>أفضل <span class="color"> منتجاتنا</span></h2>
+				        <div class="border"></div>
+				    </div>
+				    <!-- /section title -->
+
+					<!-- single pricing table -->
+          {% block content %}
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="200ms">
+						<div class="price-item">
+              {% for item in obj_list %}
+							<!-- plan name & value -->
+							<div class="price-title">
+								<h3>{{ item.title }}</h3>
+								<p><strong class="value">{{ item.price }} L.E</p>
+							</div>
+							<!-- /plan name & value -->
+
+
+							<!-- plan description -->
+							<h5>
+              {{ item.description }}
+            </h5>
+							<!-- /plan description -->
+              <!-- plan description -->
+							<ul>
+								<li>{{ item.email_accounts }} Email Account</li>
+								<li>{{ storage }} GB Storage</li>
+								<li>{{ Bandwidth }} GB Bandwidth</li>
+							</ul>
+							<!-- /plan description -->
+
+							<!-- signup button -->
+							<a class="btn btn-transparent" href="/contact">سجل للشراء</a>
+							<!-- /signup button -->
+              {% endfor %}
+						</div>
+					</div>
+					<!-- end single pricing table -->
+        </div>
+      </div>
+   </section>
+
+		<footer id="footer" class="bg-one">
+			<div class="container">
+			    <div class="row wow fadeInUp" data-wow-duration="500ms">
+					<div class="col-lg-12">
+
+						<!-- Footer Social Links -->
+						<div class="social-icon">
+							<ul class="list-inline">
+								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
+							<!--	<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
+								<li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
+								<li><a href="#"><i class="tf-ion-social-youtube"></i></a></li>
+								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
+								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+								<li><a href="#"><i class="tf-ion-social-pinterest-outline"></i></a></li>-->
+							</ul>
+						</div>
+						<!--/. End Footer Social Links -->
+            <!-- copyright -->
+						<div class="copyright text-center">
+							<a>
+								<img src="{% static 'images/logowhite.jpg' %}" alt="Terahouse" />
+							</a>
+							<p>Design And Developed by <a href="http://www.themefisher.com"> Terahouse Team</a>. Copyright &copy; <script>document.write(new Date().getFullYear())</script>. All Rights Reserved
+							</p>
+						</div>
+						<!-- /copyright -->
+
+					</div> <!-- end col lg 12 -->
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+		</footer> <!-- end footer -->
+
+		<div id="scroll-up">
+			up
+		</div>
+
+
+
+
+
+
+
+
+
+    {% endblock %}
+
+		<!--
+		Essential Scripts
+		=====================================-->
+
+		<!-- Main jQuery -->
+		<script type="text/javascript" src="{% static 'plugins/jquery/dist/jquery.min.js' %}"></script>
+		<!-- Bootstrap 3.1 -->
+		<script type="text/javascript" src="{% static 'plugins/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+		<!-- Slick Carousel -->
+		<script type="text/javascript" src="{% static 'plugins/slick-carousel/slick/slick.min.js' %}"></script>
+		<!-- Portfolio Filtering -->
+		<script type="text/javascript" src="{% static 'plugins/mixitup/dist/mixitup.min.js' %}"></script>
+		<!-- Smooth Scroll -->
+		<script type="text/javascript" src="{% static 'plugins/smooth-scroll/dist/js/smooth-scroll.min.js' %}"></script>
+		<!-- Magnific popup -->
+		<script type="text/javascript" src="{% static 'plugins/magnific-popup/dist/jquery.magnific-popup.min.js' %}"></script>
+		<!-- Sticky Nav -->
+		<script type="text/javascript" src="{% static 'plugins/Sticky/jquery.sticky.js' %}"></script>
+		<!-- Number Counter Script -->
+		<script type="text/javascript" src="{% static 'plugins/count-to/jquery.countTo.js' %}"></script>
+		<!-- wow.min Script -->
+		<script type="text/javascript" src="{% static 'plugins/wow/dist/wow.min.js' %}"></script>
+		<!-- Custom js -->
+		<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+
+    </body>
+</html>
